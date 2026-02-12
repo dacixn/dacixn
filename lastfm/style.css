@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+.container {
+    padding: 12px;
+    border-radius: 22px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.album-art {
+    height: 98px;
+    width: 98px;
+    background-color: blue;
+    border-radius: 12px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0.25em 0.75em;
+    margin: 0.25em 0.25em;
+}
+
+.song-info {
+    font-family: "Mona Sans";
+    color: white;
+}
+
+.song-title {
+    font-size: 1.30em;
+    font-weight: 700;
+}
+
+.song-artist {
+    font-size: 1.20em;
+    font-weight: 600;
+}
+
+.lastfm-label {
+    font-size: 1.10em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    font-family: "Mona Sans";
+    color: #aaaaaa;
+    align-self: flex-end;
+}
+
+.icon {
+    align-self: center;
+    margin-right: 0.25em;
+}
+
